@@ -56,7 +56,9 @@
       </v-row>
     </v-container>
 
-    <NewItems class="mt-5" />
+    <NewItems class="mt-5 mb-5" />
+
+    <Footer />
   </div>
 </template>
 
@@ -64,6 +66,7 @@
 import Header from "@/components/Header.vue";
 import Slider from "@/components/Slider.vue";
 import NewItems from "@/components/NewItems.vue";
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: "Home",
@@ -72,6 +75,7 @@ export default {
     Header,
     Slider,
     NewItems,
+    Footer,
   },
 };
 </script>

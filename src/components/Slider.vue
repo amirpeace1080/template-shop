@@ -22,7 +22,7 @@
       </v-sheet>
     </v-carousel-item>
     <v-carousel-item>
-      <v-sheet color="danger" height="100%">
+      <v-sheet color="primary" height="100%">
         <v-row class="fill-height" align="center" justify="center">
           <div class="text-h2">Slide Four</div>
         </v-row>

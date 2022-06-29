@@ -21,7 +21,7 @@
       <v-toolbar-items>
         <v-btn class="sign">
           <v-icon>mdi-account</v-icon>
-          ثبت نام / ورود
+        <router-link to="/login">ثبت نام / ورود</router-link>
         </v-btn>
       </v-toolbar-items>
     </v-app-bar>
@@ -32,7 +32,7 @@
       <v-spacer></v-spacer>
       <v-btn class="sign">
         <v-icon>mdi-account</v-icon>
-        ثبت نام / ورود
+        <router-link to="/login">ثبت نام / ورود</router-link>
       </v-btn>
     </v-app-bar>
 
